@@ -121,7 +121,7 @@ p {
     margin: 10px 50px;
 }
 
-li { display: inline }
+li { display: block; }
 
 #navigation a {
     display: block;
