@@ -79,6 +79,20 @@ img {
     border-style: dashed;
     border-width: 2px;
     border-color: #ccc;
+	transform: rotate(-10deg);
+	transform: matrix(2,-0.35,0.35,2,0,0);
+	
+transform-origin: 0 0;
+
+}
+#footer {
+    padding: 50px;
+    background-image: url(snazzy.jpg);
+    color: rgba(0,0,0,0.8);
+	transform: skew(20deg,10deg);
+	
+
+
 }
 
 a {
@@ -231,12 +245,6 @@ p:before {
 
 h3 + p { font-weight: bold;
         font-size:14px; }
-
-#footer {
-    padding: 50px;
-    background-image: url(snazzy.jpg);
-    color: rgba(0,0,0,0.8);
-}
 
 #saturation-color { color: hsl(36, 100%, 50%) }
 
