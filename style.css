@@ -200,3 +200,5 @@ p:before {
     margin: 0;
     padding: 0;
 }
+
+#genus_examples > li { border: 1px solid red }
