@@ -39,6 +39,9 @@ h2 {
     margin: 0;
     padding: 2px;
     padding-left: 14px;
+	
+text-shadow: -2px 2px 2px #999;
+
 }
 
 h3 {
