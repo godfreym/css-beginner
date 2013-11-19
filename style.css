@@ -174,3 +174,9 @@ p:before {
 #footer {
     clear: both;
 }
+
+#monroe {
+    background: #fc0;
+    padding: 20px;
+    border-radius: 3px 6px 9px 12px;
+}
