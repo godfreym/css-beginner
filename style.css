@@ -84,6 +84,11 @@ img {
 	
 transform-origin: 0 0;
 
+background: linear-gradient(orange, red);
+background: -webkit-linear-gradient(right, #000, #666);
+background: linear-gradient(hsl(0,100%,50%),hsl(60,100%,50%),hsl(120,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%),hsl(300,100%,50%));
+
+
 }
 #footer {
     padding: 50px;
@@ -91,7 +96,8 @@ transform-origin: 0 0;
     color: rgba(0,0,0,0.8);
 	transform: skew(20deg,10deg);
 	
-
+background: radial-gradient(circle closest-side at 100px 200px , black, white);
+background: -webkit-radial-gradient(100px 200px, circle closest-side, black, white);
 
 }
 
@@ -270,6 +276,48 @@ a:link {
 }
 a:hover {
     color: hsl(36,100%,50%);
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #content { width: 100% }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #nav { float: none }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+}
+
+
+@media screen and (orientation: landscape) {
+
+    #nav { float: left }
+
+}
+
+@media screen and (orientation: portrait) {
+
+    #nav { float: none }
+
+}
+
+
+@media screen and (min-device-height: 768px) and (max-device-width: 1024px) {
+
+    /* You can apply numerous conditions separated by "and" */
+
 }
 
 
