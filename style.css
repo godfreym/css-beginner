@@ -34,6 +34,7 @@ body {
 	margin-right: 100px;
     padding: 0;
 	background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+	background-image: url(this.jpg), url(that.gif), url(theother.png);
 }
 
 /* This is a comment, by the way */
@@ -262,3 +263,5 @@ a:link {
 a:hover {
     color: hsl(36,100%,50%);
 }
+
+
