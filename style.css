@@ -202,3 +202,6 @@ p:before {
 }
 
 #genus_examples > li { border: 1px solid red }
+
+h3 + p { font-weight: bold;
+        font-size:14px; }
