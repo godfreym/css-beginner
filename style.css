@@ -170,3 +170,7 @@ p:before {
 #content {
     margin: 0 200px;
 }
+
+#footer {
+    clear: both;
+}
