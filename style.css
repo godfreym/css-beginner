@@ -196,3 +196,7 @@ p:before {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
