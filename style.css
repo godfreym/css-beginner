@@ -69,12 +69,17 @@ table {
     background-color: #ccc;
 }
 
+
 #top {
     background-color: #ccc;
-    padding: 20px
+    padding: 1em
 }
 
-.intro {
+#top h1 {
+    color: #ff0;
+}
+
+#top p {
     color: red;
     font-weight: bold;
 }
